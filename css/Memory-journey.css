@@ -1,0 +1,14 @@
+main {
+    width: 94vw;
+    margin: 0 auto;
+  }
+
+
+
+.maingrid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr) 0.5fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap: 12px;
+    }
